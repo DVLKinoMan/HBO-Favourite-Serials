@@ -1,0 +1,496 @@
+﻿body#gameofthrone {
+ overflow-y: scroll; 
+ background-image: url('images/GameOfThronesLogo.jpeg');
+ background-repeat: repeat-y;
+ background-position: 0 55%;
+ background-size: 20%;
+}
+body#trueblood {
+ overflow-y: scroll; 
+ background-image: url('images/TrueBloodlogo.jpg');
+ background-repeat: repeat-y;
+ background-position: 0 55%;
+ background-size: 20%;
+}
+body#truedetective {
+ overflow-y: scroll; 
+ background-image: url('images/TrueDetectiveLogo3.gif');
+ background-repeat: repeat-y;
+ background-position: 0 55%;
+ background-size: 20% 150px;
+}
+#Serials {
+ position: fixed;
+ width: 98%;
+ height: 30%;
+ top: 0;
+ left: 0;
+}
+#HBOMenu {
+ position: fixed;
+ background-color: rgb(76,69,81);
+ width: 10%;
+ height: 70%;
+ top: 30%;
+ left: 0;
+}
+#HBOMenuForContacts {
+ position: fixed;
+ background-color: rgb(76,69,81);
+ width: 10%;
+ height: 55%;
+ top: 30%;
+ left: 0;
+}
+#HBOContent {
+ position: fixed;
+ background-image: url('images/Contentback.jpg');
+ background-position: center;
+ width: 90%;
+ height: 70%;
+ top: 30%;
+ left: 10%;
+}
+#HBOContentForHistory {
+ position: fixed;
+ background-image: url('images/Contentback.jpg');
+ background-position: center;
+ width: 90%;
+ height: 70%;
+ top: 30%;
+ left: 10%;
+ overflow-y: scroll;
+}
+#HBOContentWhite {
+ position: fixed;
+ width: 90%;
+ height: 55%;
+ top: 30%;
+ left: 10%;
+}
+#HBOContentWithScroll {
+ position: fixed;
+ background-image: url('images/Contentback.jpg'); 
+ background-position: center;
+ width: 90%;
+ height: 70%;
+ top: 30%;
+ left: 10%;
+ overflow-y: scroll;
+}
+#HBOFooterForContacts {
+ position: fixed;
+ background: -webkit-linear-gradient(to bottom, #161618, #5D5E62);
+ background: -o-linear-gradient(to bottom, #161618, #5D5E62);
+ background: -moz-linear-gradient(to bottom, #161618, #5D5E62);
+ background: linear-gradient(to bottom, #161618, #5D5E62);
+ top: 85%;
+ left:0;
+ width: 100%;
+ height: 20%;
+}
+#SerialsCover{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 55%;
+}
+#GameOfThronesContent{
+ position: absolute;
+ background-image: url('images/GameofThronesBackground.jpg');
+ top: 55%;
+ left: 20%;
+ width: 80%;
+}
+#TrueDetectiveContent{
+ position: absolute;
+ background-color: white;
+ top: 55%;
+ left: 20%;
+ width: 80%;
+}
+#TrueBloodContent{
+ position: absolute;
+ background-image: url('images/red.jpg');
+ top: 55%;
+ left: 20%;
+ width: 80%;
+}
+
+
+
+
+#GameOfThrones a img{
+ position: absolute;
+ width: 30%;
+ height: 65%;
+ top: 0;
+ left: 0;
+}
+#TrueBlood a img{
+ position: absolute;
+ width: 30%;
+ height: 65%;
+ left: 35%;
+ top: 0;
+ right: 35%;
+}
+#TrueDetective a img{
+ position: absolute;
+ width: 30%;
+ height: 65%;
+ right: 0;
+ top: 0;
+ left: 70%;
+}
+#HBOlogo a img{
+ position: absolute;
+ width: 10%;
+ height: 25%;
+ right: 45%;
+ top: 70%;
+ left: 45%;
+}
+#SerialsCover img{
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+}
+a img#HBO{
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 20%;
+ height: 20%;
+ border-color: gray;
+ border-radius: 20px;
+ box-shadow: 2px 2px 2px 2px rgb(76,69,81);
+}
+
+
+
+
+ul#HBOmn {
+ list-style-type: none;
+ padding-left:0;
+}
+ul#HBOmn li{
+transition: all 0.6s  ease-in-out;
+}
+ul#HBOmn li a{
+ text-decoration: none;
+ line-height: 500%;
+}
+ ul#HBOmn li a:link,a:visited { color: white; }
+ ul#HBOmn li a:hover{ color:  hsl(40,100%,50%);text-shadow: 5px 5px 5px #AAA295;}
+ ul#HBOmn li:hover{ background-color: rgb(29,29,30); border-radius:15px;}
+ ul#HBOmn li#selected { background-color: rgb(29,29,30); border-radius:15px;}
+ ul#HBOmn li a#selected { color:  #FFAA00;text-shadow: 5px 5px 5px #AAA295; }
+
+ul#HBOContact {
+ position: fixed;
+ left:25%;
+ list-style-type: none;
+}
+ul#HBOContact li{
+ display: inline;
+}
+ul#HBOContact li a{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin: 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+ ul#HBOContact li a:link,a:visited { color: white; }
+ ul#HBOContact li a:hover{ color:  hsl(40,100%,50%);text-shadow: 5px 5px 5px #AAA295;}
+
+
+
+
+#HBOContent,#HBOContentWithScroll,#HBOContentForHistory h1#HBO {
+ color: rgba(255,170,0,0.8);
+ text-align: center;
+ text-transform: capitalize;
+ letter-spacing: 5px;
+ text-shadow: 5px 5px 5px #AAA295;
+}
+#HBOFooterForContacts h1 {
+ color: rgba(255,170,0,0.8);
+ font-size: 15pt;
+ text-align: center;
+ text-transform: capitalize;
+ letter-spacing: 5px;
+ text-shadow: 5px 5px 5px #AAA295;
+}
+#HBOContent h2 {
+ color: white;
+ text-align: justify;
+ font-style: italic;
+ font-size: 18pt;
+ margin-right:2%;
+ text-shadow: 2px 2px rgb(76,69,81);
+}
+#GameOfThronesContent h1{
+ color: rgba(255,170,0,0.8);
+ font-size: 20pt;
+ text-align: center;
+ text-transform: capitalize;
+ letter-spacing: 5px;
+ text-shadow: 5px 5px 5px #AAA295;
+}
+#TrueDetectiveContent h1{
+ color: rgba(255,170,0,0.8);
+ font-size: 20pt;
+ text-align: center;
+ text-transform: capitalize;
+ letter-spacing: 5px;
+ text-shadow: 5px 5px 5px #AAA295;
+}
+#TrueBloodContent h1{
+ color: #FFD923;
+ font-size: 20pt;
+ text-align: center;
+ text-transform: capitalize;
+ letter-spacing: 5px;
+ text-shadow: 5px 5px 5px #AAA295;
+}
+#HBOContentForHistory p {
+ color: rgba(190,190,189,0.8);
+ text-align: justify;
+ font-style: normal;
+ text-decoration: capitalize;
+ font-size: 14pt;
+ margin-right: 2%;
+ text-shadow: 2px 2px rgb(76,69,81);
+ overflow-x: hidden;
+}
+span#forhome{
+color: #AAA295;
+font-weight: bold;
+font-style: normal;
+}
+span#forhistory {
+ color: rgba(179,126,7,0.8);
+ font-weight: bold;
+ font-style: normal;
+ text-decoration: underline;
+}
+#GameOfThronesContent span{
+ color: rgba(179,126,7,0.8);
+ font-weight: bold;
+ font-size:18pt;
+ font-style: normal;
+ text-decoration: underline;
+}
+#TrueDetectiveContent span{
+ color: rgba(179,126,7,0.8);
+ font-weight: bold;
+ font-size:18pt;
+ font-style: normal;
+ text-decoration: underline;
+}
+#TrueBloodContent span{
+ color: #FFD923;
+ font-weight: bold;
+ font-size:18pt;
+ font-style: normal;
+ text-decoration: underline;
+}
+#GameOfThronesContent p {
+ color: rgba(190,190,189,0.8);
+ text-align: justify;
+ font-style: normal;
+ text-decoration: capitalize;
+ font-size: 14pt;
+ margin-right: 2%;
+ margin-left: 2%;
+ text-shadow: 2px 2px rgb(76,69,81);
+}
+#TrueDetectiveContent p {
+ color: rgba(190,190,189,0.8);
+ text-align: justify;
+ font-style: normal;
+ text-decoration: capitalize;
+ font-size: 14pt;
+ margin-right: 2%;
+ margin-left: 2%;
+ text-shadow: 2px 2px rgb(76,69,81);
+}
+#TrueBloodContent p {
+ color: #FCFBFB;
+ text-align: justify;
+ font-style: normal;
+ text-decoration: capitalize;
+ font-size: 14pt;
+ margin-right: 2%;
+ margin-left: 2%;
+ text-shadow: 2px 2px rgb(76,69,81);
+}
+hr#green {  
+ clear: both;
+ color: green;
+}
+
+
+
+img#Serials {
+ border: 2px solid;
+ border-color: gray;
+ border-radius: 20px;
+ box-shadow: 10px 10px 8px 2px rgb(76,69,81);
+ margin: 5px;
+ height: 400px;
+ width: 500px;
+}
+img#HBOForHome {
+ float: left;
+ border: 2px solid;
+ border-color: gray;
+ box-shadow: 10px 10px 8px 2px rgb(76,69,81);
+ margin: 20px;
+ height: 200px;
+ width: 300px;
+}
+img#Gallery {
+ float: left;
+ border: 2px solid;
+ border-color: gray;
+ border-radius: 50px 20px /50px 20px;
+ box-shadow: 10px 10px 8px 2px rgb(76,69,81);
+ margin: 20px;
+ height: 250px;
+ width: 300px;
+}
+img#followin{
+ width: 200px;
+ height: 80px;
+ border-color:gray;
+ border-radius: 20px;
+ box-shadow: 10px 10px 8px 2px rgb(76,69,81);
+}
+img#left{
+ float: left;
+ border: 1px solid;
+ border-color: green;
+ box-shadow: 10px 10px 8px 2px rgb(76,69,81);
+ margin: 20px;
+ height: 400px;
+ width: 300px;
+}
+img#left2 {
+ float: left;
+ border: 1px solid;
+ border-color: green;
+ box-shadow: 10px 10px 8px 2px rgb(76,69,81);
+ margin: 20px;
+ height: 200px;
+ width: 270px;
+}
+img#left3 {
+ clear: both;
+ float: left;
+ border: 1px solid;
+ border-color: green;
+ box-shadow: 10px 10px 8px 2px rgb(76,69,81);
+ margin: 20px;
+ height: 200px;
+ width: 270px;
+}
+
+
+
+textarea {	
+	padding:10px; 
+	font-size: 18pt;
+	font-family: Arial, sans-serif; 
+	color: black;
+        text-shadow: 1px 1px rgb(76,69,81);
+        border-radius: 15px; 
+        box-shadow: 5px 5px 4px 1px rgb(76,69,81);
+	border: solid 1px gray; 
+        margin: 0 0 2%;
+	width: 80%;
+	height: 50%;
+}
+label {
+	color:white;
+	font-size:15px;
+	font-weight:700;
+	
+}
+#contact {
+        margin-top: 3%;
+        margin-left: 30%;
+        background-image: url('images/background.jpg');
+        border-radius: 15px; 
+        box-shadow: 15px 15px 10px 3px rgb(76,69,81);
+	padding:20px;
+	width: 25%;
+        height: 270px;
+}
+.input {	
+	padding:10px; 
+	font-size: 10pt;
+	font-family: Arial, sans-serif; 
+	color: gray;
+        font-style: italic;
+	border:solid 1px #ccc; 
+	margin: 0 0 2%; 
+	width: 50%;
+	border-radius: 15px; 
+        box-shadow: 5px 5px 4px 1px rgb(76,69,81);
+}
+.SendClear{
+        color: blue;
+        text-shadow: 1px 1px rgb(76,69,81);
+        border-radius: 15px; 
+        box-shadow: 5px 5px 4px 1px rgb(76,69,81);
+        margin-left: 17%;
+        font-size: 15pt;
+}
+
+
+
+
+#HBOContentWhite table#followus{
+ position: fixed;
+ top: 29%;
+ right: 3%;
+ border-spacing: 20px;
+ border:none;
+}
+#HBOContentForHistory table{
+  border-collapse: collapse;
+}
+#HBOContentForHistory table th#channel {
+ padding-left: 100px;
+ padding-right: 100px;
+ color: white;
+ background-color: #8B0000;
+}
+#HBOContentForHistory table th#description {
+ padding-left: 300px;
+ padding-right: 300px;
+ color: white;
+ background-color: #8B0000;
+}
+#HBOContentForHistory table,th,td{
+ text-align: center;
+ border: 1px solid green;
+}
+#HBOContentForHistory td{
+ color: rgba(190,190,189,0.8);
+}
+#HBOContentForHistory td img{
+ width: 100px;
+ height:80px;
+}
+#HBOContentForHistory td h1{
+ color: rgba(190,190,189,0.8);
+ font-size: 20pt;
+}
